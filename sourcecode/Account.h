@@ -28,7 +28,7 @@ class Account {
 		string str() const;
 };
 
-Account::Account(int id = 0, string email = "fede@email.it", string password = "12345") {
+Account::Account(int id = 0, string email = "mail@email.it", string password = "1234") {
 	this->id = id;
 	this->email = email;
 	this->password = password;
